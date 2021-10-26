@@ -1,7 +1,4 @@
-typedef struct
-{
-    float x, y, z;
-} vector3;
+#include "vector3.h"
 
 vector3 sum(vector3 *a, vector3 *b) 
 {
